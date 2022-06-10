@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Holy Summer - Contato</title>
+    <style>
+        body {
+            background-color: #15a1a5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="login-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Faça Login em sua conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label=""></button>
+                </div>
+
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary loginColor">Entrar na conta</button>
+                    <div id="emailHelp" class="form-text">Esqueceu a sua senha? <a href="#">Clique aqui</a></div>
+                  </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Navegação - menus -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-3 box-shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html">Holy Summer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Locais
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="#navbarNavDropdownMenuLink">
+                            <li><a class="dropdown-item" href="maldivas.html">Maldivas</a></li>
+                            <li><a class="dropdown-item" href="jeju.html">Jeju</a></li>
+                            <li><a class="dropdown-item" href="mykonos.html">Mykonos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="planos.html">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="contatos.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"data-bs-toggle="modal" data-bs-target="#login-modal" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item navTabColors">
+                        <a class="btn btn-outline-warning ms-md-2" aria-current="page" href="inscreva.html">Inscreva-se</a>
+                    </li>                   
+                </ul>
+            </div>
+        </div>     
+    </nav>
+     
+   
+
+    <section class="py-5 bg-dark">
+        <div class="container text-center">
+            <div class="my-5">
+                <span class="h6  d-block text-dark">TUDO DE MELHOR PARA VOCÊ</span>
+                <h2 class="display-4 text-white">Aproveite as Vantagens</h2>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row">
+            <div class="col-lg bg-white rounded text-dark mb-5">
+                <form class="p-4 ">
+
+                    <div class="mb-3">
+                        <label for="nomeCliente" class="form-label">Nome</label>
+                        <input type="email" class="form-control" id="nomeCliente" aria-describedby="emailHelp">
+                      </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensagem</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+
+                    <button type="submit" class="btn btn-outline-warning colored">Enviar Mensagem</button> 
+                  </form>
+            </div>
+
+            <div class="col-lg text-white">
+                <h2 class="h6 mb-4">NOSSO ENDEREÇO</h2>
+                <img class="img-fluid box-shadow" src="images/maps.JPG" alt="">
+                    
+                <h2 class="h6">INFORMAÇÕES DE CONTATO</h2>
+                    <ul class="list-unstyled">
+                        <li>holysummer@holysummer.com</li>
+                        <li>99999-99999</li>
+                        <li>Todos os dias das 7h às 23h59</li>
+                    </ul>
+                
+                
+                    <h2 class="h6 mb-3">REDES SOCIAIS</h2>
+                    <ul class="list-unstyled">
+                        <li class="btn btn-outline-warning mb-2 btn-sm d-grid gap-2 d-md-block colored" style="max-width: 260px;">Twitter</li>
+                        <li class="btn btn-outline-warning mb-2 btn-sm d-grid gap-2 d-md-block colored" style="max-width: 260px;">Instagram</li>
+                        <li class="btn btn-outline-warning mb-2 btn-sm d-grid gap-2 d-md-block colored" style="max-width: 260px;">Facebook</li>
+                    </ul>
+               
+
+            </div>
+        </div>
+    </section>
+
+    <section class="container bg-dark">
+        <div class="text-center my-5">
+            <span class="h6  d-block text-dark p-0 m-0">AINDA COM DÚVIDAS?</span>
+            <h2 class="display-4 text-white p-0 m-0">Perguntas Frequentes</h2>
+        </div>
+
+        <div class="row justify-content-center">
+            <div class="col-6" id="questions" data-childrem=".pergunta"> 
+                <p>
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" href="#questions1" role="button" aria-expanded="false" aria-controls="questions1">
+                      É possível cancelar a viagem?
+                    </a>
+                </p>
+                <div class="collapse" id="questions1">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis ipsa delectus facere officiis provident totam, explicabo similique unde dolor.
+                        
+                    </div>
+                </div>
+
+                <div><hr class="dropdown-divider text-white"></div>
+                
+
+                <p>
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" href="#questions2" role="button" aria-expanded="false" aria-controls="questions2">
+                      Se eu perder o vôo eu posso ser ressarcido?
+                    </a>
+                </p>
+                <div class="collapse" id="questions2">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis ipsa delectus facere officiis provident totam, explicabo similique unde dolor.
+                        
+                    </div>
+                </div>
+
+                <div><hr class="dropdown-divider text-white"></div>
+
+                <p>
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" href="#questions3" role="button" aria-expanded="false" aria-controls="questions3">
+                      Qual é o melhor destino para viajar?
+                    </a>
+                </p>
+                <div class="collapse" id="questions3">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis ipsa delectus facere officiis provident totam, explicabo similique unde dolor.
+                    </div>
+                </div>
+
+                <div><hr class="dropdown-divider text-white"></div>
+
+                <p>
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" href="#questions4" role="button" aria-expanded="false" aria-controls="questions4">
+                      A empresa é de confiança?
+                    </a>
+                </p>
+                <div class="collapse" id="questions4">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque sit similique. Deserunt, dignissimos dolore quod voluptate excepturi esse ut?
+                    </div>
+                </div>
+
+                <div><hr class="dropdown-divider text-white"></div>
+
+                <p>
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" href="#questions5" role="button" aria-expanded="false" aria-controls="questions5">
+                      Vocês aceitam Pix como pagamento?
+                    </a>
+                </p>
+                <div class="collapse" id="questions5">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam debitis ipsa delectus facere officiis provident totam, explicabo similique unde dolor.
+                        
+                    </div>
+                </div>
+
+                <div><hr class="dropdown-divider text-white"></div>
+
+                <p>
+                    <a class="btn btn-outline-warning" data-bs-toggle="collapse" href="#questions6" role="button" aria-expanded="false" aria-controls="questions6">
+                     Vocês concedem descontos a grupos grandes?
+                    </a>
+                </p>
+                <div class="collapse" id="questions6">
+                    <div class="card card-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda ullam sit praesentium laboriosam sunt dolores pariatur, dolor officiis rem?
+                    </div>
+                </div>
+                <div><hr class="dropdown-divider text-white"></div>
+
+            </div>
+               
+
+        </div>
+
+    </section>
+
+    <footer class="bg-warning text-black">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h4 class="h6">PÁGINAS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary" href="planos.html">Planos</a></li>
+                        <li><a class="text-secondary" href="contatos.html">Contatos</a></li>
+                        <li><a class="text-secondary" href="inscreva.html">Inscreva-se</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <h4 class="h6">LOCAIS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary" href="maldivas.html">Maldivas</a></li>
+                        <li><a class="text-secondary" href="jeju.html">Jeju</a></li>
+                        <li><a class="text-secondary" href="mykonos.html">Mykonos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h4 class="h6">INFORMAÇÕES DE CONTATO</h4>
+                    <ul class="list-unstyled">
+                        <li>holysummer@holysummer.com</li>
+                        <li>99999-99999</li>
+                        <li>Todos os dias das 7h às 23h59</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h4 class="h6">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled">
+                        <li class="btn btn-outline-secondary mb-2 btn-sm d-grid gap-2 d-md-block">Twitter</li>
+                        <li class="btn btn-outline-secondary mb-2 btn-sm d-grid gap-2 d-md-block">Instagram</li>
+                        <li class="btn btn-outline-secondary mb-2 btn-sm d-grid gap-2 d-md-block">Facebook</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-dark text-white text-center py-3">
+            <p class="mb-0">Holy Summer© 2022. Alguns direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- testes -->
+
+ 
+    
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+</body>
+</html>

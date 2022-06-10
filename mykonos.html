@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/bootstrap.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
+    <title>Holy Summer - Mykonos</title>
+</head>
+<body>
+
+    <!-- Modal -->
+    <div class="modal fade" id="login-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="staticBackdropLabel">Faça Login em sua conta</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label=""></button>
+                </div>
+
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">Email</label>
+                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                    </div>
+
+                    <div class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">Senha</label>
+                      <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Entrar na conta</button>
+                    <div id="emailHelp" class="form-text">Esqueceu a sua senha? <a href="#">Clique aqui</a></div>
+                  </form>
+            </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- Navegação - menus -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top py-3 box-shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand logo" href="index.html">Holy Summer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Locais
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="#navbarNavDropdownMenuLink">
+                            <li><a class="dropdown-item" href="maldivas.html">Maldivas</a></li>
+                            <li><a class="dropdown-item" href="jeju.html">Jeju</a></li>
+                            <li><a class="dropdown-item" href="mykonos.html">Mykonos</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="planos.html">Planos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="contatos.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"data-bs-toggle="modal" data-bs-target="#login-modal" aria-current="page" href="#">Login</a>
+                    </li>
+                    <li class="nav-item navTabColors">
+                        <a class="btn btn-outline-warning ms-md-2" aria-current="page" href="inscreva.html">Inscreva-se</a>
+                    </li>                   
+                </ul>
+            </div>
+        </div>     
+    </nav>
+     
+    <section class="container bg-fotos py-5">
+            <div class=" text-center my-5 align-self-center">
+                <span class="h6  d-block text-black">O MELHOR DESTINO DA SUA VIAGEM</span>
+                <h2 class="display-4 text-warning">Descubra Mykonos</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md">
+                    <img class="img-fluid mb-4"  src="images/mykonos/mykonos-2.jpg" alt="">       
+                    <img class="img-fluid mb-4"  src="images/mykonos/mykonos-5.jpg" alt="">
+                    <img class="img-fluid mb-4"  src="images/mykonos/mykonos-3.jpg" alt="">       
+                </div>
+                
+                <div class="col-md">
+                    <img class="img-fluid mb-4"  src="images/mykonos/mykonos-4.jpg" alt="">
+                    <img class="img-fluid mb-4" style="height: 556px;" src="images/mykonos/mykonos-1.jpg" alt="">
+                </div>
+                
+                <div class="col-md">
+                    <img class="img-fluid mb-4"  src="images/mykonos/mykonos-6.jpg" alt="">     
+                    <img class="img-fluid mb-4" style="height: 556px;" src="images/mykonos/mykonos-7.jpg" alt="">
+                        
+                </div>
+            </div>
+    </section>
+    
+    <section class="container">
+        <div class="text-center my-5">
+            <span class=" h6 d-block text-white">DESCUBRA O QUE ACONTECE NA CIDADE</span>
+            <h1 class="display-4 text-warning">Próximos Eventos</h1>
+        </div>
+        <table class="table table-white table-hover">
+            <thead>
+              <tr>
+                <th scope="col">Data</th>
+                <th scope="col">Evento</th>
+                <th scope="col">Local</th>
+                <th scope="col">Ingresso</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">12/04</th>
+                <td>Mesmerized In Maldives</td>
+                <td>Hotel Riu Palace Maldivas, Gadifuri</td>
+                <td class="tablex"> <button class="btn btn-outline-warning btn-sm">Comprar Ingresso</button></td>
+
+              </tr>
+              <tr>
+                <th scope="row">25/06</th>
+                <td>Music in Paradise</td>
+                <td>Holyday in Resort Kandoom</td>
+                <td class="tablex"> <button class="btn btn-outline-warning btn-sm">Comprar Ingresso</button></td>
+              </tr>
+
+              <tr>
+                <th scope="row">25/06</th>
+                <td>Music in Paradise</td>
+                <td>Holyday in Resort Kandoom</td>
+                <td class="tablex"> <button class="btn btn-outline-warning btn-sm">Comprar Ingresso</button></td>
+              </tr>
+
+              <tr>
+                <th scope="row">25/06</th>
+                <td>Music in Paradise</td>
+                <td>Holyday in Resort Kandoom</td>
+                <td class="tablex"> <button class="btn btn-outline-warning btn-sm">Comprar Ingresso</button></td>
+              </tr>
+
+              <tr>
+                <th scope="row">25/06</th>
+                <td>Music in Paradise</td>
+                <td>Holyday in Resort Kandoom</td>
+                <td class="tablex"> <button class="btn btn-outline-warning btn-sm">Comprar Ingresso</button></td>
+              </tr>
+
+              <tr>
+                <th scope="row">25/06</th>
+                <td>Music in Paradise</td>
+                <td>Holyday in Resort Kandoom</td>
+                <td class="tablex"> <button class="btn btn-outline-warning btn-sm">Comprar Ingresso</button></td>
+              </tr>
+
+            </tbody>
+          </table>
+
+    </section>
+
+    <footer class="bg-warning text-black">
+        <div class="container py-4">
+            <div class="row">
+                <div class="col-md-3 col-6">
+                    <h4 class="h6">PÁGINAS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary" href="planos.html">Planos</a></li>
+                        <li><a class="text-secondary" href="contatos.html">Contatos</a></li>
+                        <li><a class="text-secondary" href="inscreva.html">Inscreva-se</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-3 col-6">
+                    <h4 class="h6">LOCAIS</h4>
+                    <ul class="list-unstyled">
+                        <li><a class="text-secondary" href="maldivas.html">Maldivas</a></li>
+                        <li><a class="text-secondary" href="jeju.html">Jeju</a></li>
+                        <li><a class="text-secondary" href="mykonos.html">Mykonos</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-4">
+                    <h4 class="h6">INFORMAÇÕES DE CONTATO</h4>
+                    <ul class="list-unstyled">
+                        <li>holysummer@holysummer.com</li>
+                        <li>99999-99999</li>
+                        <li>Todos os dias das 7h às 23h59</li>
+                    </ul>
+                </div>
+
+                <div class="col-md-2">
+                    <h4 class="h6">REDES SOCIAIS</h4>
+                    <ul class="list-unstyled">
+                        <li class="btn btn-outline-secondary mb-2 btn-sm d-grid gap-2 d-md-block">Twitter</li>
+                        <li class="btn btn-outline-secondary mb-2 btn-sm d-grid gap-2 d-md-block">Instagram</li>
+                        <li class="btn btn-outline-secondary mb-2 btn-sm d-grid gap-2 d-md-block">Facebook</li>
+                    </ul>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="bg-dark text-white text-center py-3">
+            <p class="mb-0">Holy Summer© 2022. Alguns direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- testes -->
+
+ 
+    
+    <script src="scripts/popper.min.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'MERIENDA';
+    src: url(../fonts/MeriendaOne-Regular.ttf);
+}
+
+.logo {
+    font-family: 'MERIENDA';
+    font-size: 2em;
+    color: rgb(255, 255, 255) !important;
+    
+    
+    
+}
+
+body {
+    height: 300px;
+    padding-top: 5px;
+    background-color: #ffffff;
+    
+}
+
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .05) ,
+                0 2px 4px 0 rgba(0, 0, 0, .05); 
+}
+
+#quote {
+    background: url(../images/travel.jpg) center center;
+    background-size: cover;
+    height: 165%;
+    
+    
+}
+
+@media (max-width:767px)  {
+    #quote .display-4 {
+        font-size: 2.5rem;
+    } 
+    body {
+        padding-top: 0px;
+
+    } 
+    .fixed-top {
+        position: relative;
+    }
+    
+}
+
+.tamanhoBotao {
+    background-color: aquamarine;
+}
+
+
+.divisao-lista li{
+    border-bottom: solid;
+    border-color: rgba(35, 34, 34, 0.49);
+    padding: 5px;
+    border-width: 2px;
+}
+
+.form-color {
+    background-color: #010d0a;
+}
+
+
+.dropdown-item:active {
+   background-color: #15a1a5 !important;
+    color: rgb(247, 247, 247)!important;
+}
+
+.bg-dark {
+   background-color: #15a1a5 !important;
+}
+
+.bg-warning {
+    background-color: #E9FFF9 !important;
+}
+
+.bg-fotos {
+    background-color: #fff;
+    
+}
+
+.text-warning {
+    color: #BFAFA6 !important;
+}
+
+.colorText {
+    color: #1A090D !important;
+}
+
+.btn-dark {
+    background-color: #BFAFA6 !important;
+}
+
+
+.btn-outline-warning{
+    border-color: #065431 !important;
+    color: #1A090D!important;
+    
+}
+
+
+
+.btn-outline-warning :focus{
+    box-shadow: none;
+}
+
+p > a:hover{
+   background-color: rgb(62, 62, 67)!important;
+   color: white !important;
+   border: 50% !important;
+}
+
+
+
+a:hover{
+    color: rgb(0, 0, 0)!important;
+}
+.btn-info {
+    background-color: black !important;
+}
+
+
+
+.textColor {
+    color: #121113;
+}
+
+
+.btn-check:focus+.btn-outline-warning, .btn-outline-warning:focus {
+    box-shadow: none!important;
+}
+
+.backFotos {
+    background-color: #fff;
+}
+
+.navTabColors > a:hover {
+    background-color: #222725 !important;
+    color: white!important;
+}
+
+.btn-warning {
+    background-color: #7a8383!important;
+    border-color: #879090!important;
+}
+
+
+.btn-warning:hover {
+    background-color: #15a1a5!important;
+}
+
+
+.tablex > button:hover {
+    background-color: #7a8383 !important;
+    color: white !important;
+    
+}
+
+.colored:hover {
+    background-color: #7a8383 !important;
+    color: white !important;
+}
+
+.loginColor {
+    background-color: #15a1a5!important;
+    border-color: #15a1a5;
+}
